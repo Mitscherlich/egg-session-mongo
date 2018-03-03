@@ -1,7 +1,7 @@
 'use strict';
 
 exports.sessionMongo = {
-  db: 'egg-session-mongo-test-db',
+  // use test default config
 };
 
 exports.keys = 'keys';

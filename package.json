@@ -1,7 +1,7 @@
 {
   "name": "egg-session-mongo",
   "version": "0.0.1",
-  "description": "mongodb store for egg session",
+  "description": "mongodb store for egg session. based on `connect-mongo`",
   "eggPlugin": {
     "name": "sessionMongo"
   },
@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "mongoose": "^5.0.7"
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.3"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -48,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-session-mongo.git"
+    "url": "git+https://github.com/Mitscherlich/egg-session-mongo.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-session-mongo#readme",
+  "homepage": "https://github.com/Mitscherlich/egg-session-mongo#readme",
   "author": "Mitscherlich",
   "license": "MIT"
 }
