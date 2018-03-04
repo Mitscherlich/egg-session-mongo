@@ -1,5 +1,10 @@
 'use strict';
 
 module.exports = app => {
-  app.sessionStore = require('./lib/session')(app);
+  const MongoStore = require('./lib/session')(app);
+  const options = app.config.sessionMongo;
+
+  app.beforeStart(async () => {
+    app.sessionStore = new MongoStore(options);
+  });
 };
