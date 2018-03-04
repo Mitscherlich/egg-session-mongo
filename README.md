@@ -40,6 +40,21 @@ exports.sessionMongo = {
 };
 ```
 
+or you can overwrite you `MongoStore` options in `app.js`
+
+```js
+// {app_root}/app.js
+module.exports = app => {
+  const MongoStore = require('egg-session-mongo')(app);
+
+  app.beforeStart(async () => {
+    app.sessionStore = new MongStore(/* options */);
+  });
+};
+```
+
+see [app.js](app.js) for more detail.
+
 ## Configuration
 
 ```js
