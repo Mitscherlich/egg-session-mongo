@@ -53,6 +53,7 @@ exports.sessionMongo = {
 
 ```bash
 $ git clone --depth 1 https://github.com/Mitscherlich/egg-session-mongo && cd egg-session-mongo
+$ npm i --save
 $ npm run test
 ```
 

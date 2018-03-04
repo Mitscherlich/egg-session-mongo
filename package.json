@@ -1,6 +1,6 @@
 {
   "name": "egg-session-mongo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "mongodb store for egg session. based on `connect-mongo`",
   "eggPlugin": {
     "name": "sessionMongo"
@@ -40,9 +40,10 @@
     "autod": "autod"
   },
   "files": [
+    "index.js",
+    "lib",
     "config",
-    "app.js",
-    "lib"
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
