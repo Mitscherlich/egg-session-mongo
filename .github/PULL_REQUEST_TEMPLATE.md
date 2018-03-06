@@ -11,10 +11,10 @@ Contributors guide: https://github.com/eggjs/egg/blob/master/CONTRIBUTING.md
 ##### Checklist
 <!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->
 
-- [x] `npm test` passes
-- [x] tests and/or benchmarks are included
-- [x] documentation is changed or added
-- [x] commit message follows commit guidelines
+- [ ] `npm test` passes
+- [ ] tests and/or benchmarks are included
+- [ ] documentation is changed or added
+- [ ] commit message follows commit guidelines
 
 ##### Affected core subsystem(s)
 <!-- Provide affected core subsystem(s). -->
