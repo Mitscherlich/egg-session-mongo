@@ -40,7 +40,7 @@ exports.sessionMongo = {
 };
 ```
 
-or you can overwrite you `MongoStore` options in `app.js`
+or you can overwrite you `MongoStore` options in `app.js`.
 
 ```js
 // {app_root}/app.js
@@ -64,11 +64,12 @@ exports.sessionMongo = {
 };
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+see [config/config.example.js](config/config.example.js) for more detail.
 
 ## Questions & Suggestions
 
 Please open an issue [here](https://github.com/eggjs/egg/issues).
+or open an issue just at this repo's [issue](https://github.com/Mitscherlich/egg-session-mongo/issues) for more timely reply
 
 ## License
 

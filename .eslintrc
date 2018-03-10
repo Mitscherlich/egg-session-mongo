@@ -1,3 +1,8 @@
 {
-  "extends": "eslint-config-egg"
+  "extends": "eslint-config-egg",
+  "rules": {
+    "semi": "error",
+    "no-multi-spaces": "off",
+    "curly": "warn"
+  }
 }

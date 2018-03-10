@@ -1,7 +1,8 @@
 {
   "name": "egg-session-mongo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mongodb store for egg session. based on `connect-mongo`",
+  "main": "index.js",
   "eggPlugin": {
     "name": "sessionMongo"
   },
@@ -11,7 +12,6 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "lodash": "^4.17.5",
     "mongodb": "^3.0.3"
   },
   "devDependencies": {
@@ -23,6 +23,8 @@
     "egg-mock": "^3.13.0",
     "eslint": "^4.11.0",
     "eslint-config-egg": "^5.1.0",
+    "expect.js": "^0.3.1",
+    "mongoose": "^5.0.9",
     "mz-modules": "^2.1.0",
     "supertest": "^3.0.0",
     "webstorm-disable-index": "^1.2.0"
@@ -53,7 +55,7 @@
     "url": "git+https://github.com/Mitscherlich/egg-session-mongo.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/Mitscherlich/egg-session-mongo/issues"
   },
   "homepage": "https://github.com/Mitscherlich/egg-session-mongo#readme",
   "author": "Mitscherlich",
