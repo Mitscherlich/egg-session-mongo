@@ -12,6 +12,7 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "koa-session-mongo": "git+https://github.com/Mitscherlich/koa-session-mongo.git",
     "mongodb": "^3.0.3"
   },
   "devDependencies": {
@@ -23,7 +24,6 @@
     "egg-mock": "^3.13.0",
     "eslint": "^4.11.0",
     "eslint-config-egg": "^5.1.0",
-    "expect.js": "^0.3.1",
     "mongoose": "^5.0.9",
     "mz-modules": "^2.1.0",
     "supertest": "^3.0.0",
@@ -42,8 +42,6 @@
     "autod": "autod"
   },
   "files": [
-    "index.js",
-    "lib",
     "config",
     "app.js"
   ],
