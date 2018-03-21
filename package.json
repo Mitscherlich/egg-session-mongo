@@ -1,6 +1,6 @@
 {
   "name": "egg-session-mongo",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "mongodb store for egg session. based on `connect-mongo`",
   "main": "index.js",
   "eggPlugin": {
