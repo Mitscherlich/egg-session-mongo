@@ -1,7 +1,7 @@
 {
   "name": "egg-session-mongo",
-  "version": "2.0.0",
-  "description": "mongodb store for egg session. based on `connect-mongo`",
+  "version": "2.0.1",
+  "description": "MongoDB store for egg session. based on `connect-mongo`.",
   "main": "index.js",
   "eggPlugin": {
     "name": "sessionMongo"
@@ -9,24 +9,27 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "session",
+    "mongo",
+    "MongoDB"
   ],
   "dependencies": {
-    "koa-session-mongo": "git+https://github.com/Mitscherlich/koa-session-mongo.git",
-    "mongodb": "^3.0.3"
+    "koa-session-mongo": "https://github.com/Mitscherlich/koa-session-mongo",
+    "mongodb": "^3.1.6"
   },
   "devDependencies": {
-    "autod": "^3.0.0",
-    "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "mongoose": "^5.0.9",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.11.2",
+    "egg-bin": "^4.9.0",
+    "egg-ci": "^1.9.2",
+    "egg-mock": "^3.20.1",
+    "eslint": "^5.6.1",
+    "eslint-config-egg": "^7.1.0",
+    "mongoose": "^5.3.2",
     "mz-modules": "^2.1.0",
-    "supertest": "^3.0.0",
+    "supertest": "^3.3.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
@@ -48,13 +51,8 @@
   "ci": {
     "version": "8, 9"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mitscherlich/egg-session-mongo.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Mitscherlich/egg-session-mongo/issues"
-  },
+  "repository": "https://github.com/Mitscherlich/egg-session-mongo",
+  "bugs": "https://github.com/Mitscherlich/egg-session-mongo/issues",
   "homepage": "https://github.com/Mitscherlich/egg-session-mongo#readme",
   "author": "Mitscherlich",
   "license": "MIT"

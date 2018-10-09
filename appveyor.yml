@@ -13,3 +13,5 @@ test_script:
   - npm run test
 
 build: off
+services:
+  - mongodb
