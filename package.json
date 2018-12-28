@@ -1,6 +1,6 @@
 {
   "name": "egg-session-mongo",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "MongoDB store for egg session. based on `connect-mongo`.",
   "main": "index.js",
   "eggPlugin": {
@@ -15,19 +15,19 @@
     "MongoDB"
   ],
   "dependencies": {
-    "koa-session-mongo": "https://github.com/Mitscherlich/koa-session-mongo",
-    "mongodb": "^3.1.6"
+    "koa2-session-mongo": "^0.0.1-rc.0",
+    "mongodb": "^3.1.10"
   },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.11.2",
+    "egg": "^2.14.2",
     "egg-bin": "^4.9.0",
-    "egg-ci": "^1.9.2",
-    "egg-mock": "^3.20.1",
-    "eslint": "^5.6.1",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.11.1",
     "eslint-config-egg": "^7.1.0",
-    "mongoose": "^5.3.2",
+    "mongoose": "^5.4.1",
     "mz-modules": "^2.1.0",
     "supertest": "^3.3.0",
     "webstorm-disable-index": "^1.2.0"
