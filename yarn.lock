@@ -5112,12 +5112,12 @@ koa-static-cache@^5.1.2:
     mime-types "^2.1.8"
     mz "^2.7.0"
 
-koa2-session-mongo@^0.0.1-rc.0:
-  version "0.0.1-rc.0"
-  resolved "http://registry.npm.taobao.org/koa2-session-mongo/download/koa2-session-mongo-0.0.1-rc.0.tgz#c52f06cdb3f8ae7bb5fee0a5aec252803a14ccb0"
-  integrity sha1-xS8GzbP4rnu1/uClrsJSgDoUzLA=
+koa2-session-mongo@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/koa2-session-mongo/-/koa2-session-mongo-0.1.0.tgz#134ceec9202f866c08d0a94bcd8de9480b4e8b3b"
+  integrity sha512-dtFTr7QTCbctTmT82RMC19bi5ISNGOtgn2Pu1nXLvF08HnW/dl6BEPnvpIokzTfRHhd70BIYVG7W9LzHItfA0A==
   dependencies:
-    mongodb "^3.1.10"
+    mongodb "^3.6.4"
 
 koa@^2.7.0:
   version "2.13.4"
@@ -5582,7 +5582,7 @@ mongodb@3.3.2:
     require_optional "^1.0.1"
     safe-buffer "^5.1.2"
 
-mongodb@^3.1.10:
+mongodb@^3.1.10, mongodb@^3.6.4:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.7.3.tgz#b7949cfd0adc4cc7d32d3f2034214d4475f175a5"
   integrity sha512-Psm+g3/wHXhjBEktkxXsFMZvd3nemI0r3IPsE0bU+4//PnvNWKkzhZcEsbPcYiWqe8XqXJJEg4Tgtr7Raw67Yw==
