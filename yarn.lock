@@ -301,6 +301,11 @@
   resolved "https://registry.yarnpkg.com/@types/content-disposition/-/content-disposition-0.5.4.tgz#de48cf01c79c9f1560bcfd8ae43217ab028657f8"
   integrity sha512-0mPF08jn9zYI0n0Q/Pnz7C4kThdSt+6LD4amsrYDDpgBfrVWa3TcCOxKX1zkGgYniGagRv8heN2cbh+CAn+uuQ==
 
+"@types/cookiejar@*":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.2.tgz#66ad9331f63fe8a3d3d9d8c6e3906dd10f6446e8"
+  integrity sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==
+
 "@types/cookies@*":
   version "0.7.1"
   resolved "http://registry.npm.taobao.org/@types/cookies/download/@types/cookies-0.7.1.tgz#f9f204bd6767d389eea3b87609e30c090c77a540"
@@ -477,6 +482,21 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/superagent@*":
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-4.1.14.tgz#ca2eed4fad671e704d3d0f33aaf099edb4a5b857"
+  integrity sha512-iiXaOL2wSbnSY4qg0mFPWJHL9iwyEsoNYwaHF2w58/fsVAQJlj+KUfFAFZu+nzbz+b7dUprJEAc+O9vhHHhQTA==
+  dependencies:
+    "@types/cookiejar" "*"
+    "@types/node" "*"
+
+"@types/supertest@^2.0.7":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@types/supertest/-/supertest-2.0.11.tgz#2e70f69f220bc77b4f660d72c2e1a4231f44a77d"
+  integrity sha512-uci4Esokrw9qGb9bvhhSVEjd6rkny/dk5PK/Qz4yxKiyppEI+dOPlNrZBahE3i+PoKFYyDxChVXZ/ysS/nrm1Q==
+  dependencies:
+    "@types/superagent" "*"
 
 "@types/yargs-parser@*":
   version "20.2.1"
@@ -2015,11 +2035,6 @@ circular-json@^0.3.1:
   resolved "http://registry.npm.taobao.org/circular-json/download/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
   integrity sha1-gVyZ6oT2gJUp0vRXkb34JxE1LWY=
 
-circular-json@^0.5.4:
-  version "0.5.9"
-  resolved "http://registry.npm.taobao.org/circular-json/download/circular-json-0.5.9.tgz#932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
-  integrity sha1-kydjroj0996teg0JyKUaR0OlOx0=
-
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "http://registry.npm.taobao.org/class-utils/download/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2129,10 +2144,10 @@ code-point-at@^1.0.0:
   resolved "http://registry.npm.taobao.org/code-point-at/download/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-coffee@^5.1.0:
-  version "5.2.1"
-  resolved "http://registry.npm.taobao.org/coffee/download/coffee-5.2.1.tgz#e0946a3363c740017359141484b8805f1a780dd3"
-  integrity sha1-4JRqM2PHQAFzWRQUhLiAXxp4DdM=
+coffee@^5.2.1:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/coffee/-/coffee-5.4.0.tgz#3a372372d061da5297c962ba97fb4db567b329ac"
+  integrity sha512-YI0t6g78gf2YroH+hjees7LfiQfo7XnTwYAShp0PHp6fUgxV6wkbolIX+z1+mbNws48TfWVp59OpLeb/bWqvNw==
   dependencies:
     cross-spawn "^6.0.5"
     debug "^4.1.0"
@@ -2401,7 +2416,7 @@ debounce@^1.1.0:
   resolved "http://registry.npm.taobao.org/debounce/download/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
   integrity sha1-RKVAq8DqmUMBjcDqqVzOh/Zc0TE=
 
-debug@2, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.1, debug@^2.6.2, debug@^2.6.3, debug@^2.6.8, debug@^2.6.9:
+debug@2, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.1, debug@^2.6.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "http://registry.npm.taobao.org/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
@@ -2538,7 +2553,7 @@ denque@^1.4.1:
   resolved "https://registry.yarnpkg.com/denque/-/denque-1.5.1.tgz#07f670e29c9a78f8faecb2566a1e2c11929c5cbf"
   integrity sha512-XwE+iZ4D6ZUB7mfYRMb5wByE8L74HCn30FBN7sWnXksWc1LO1bPDl67pBR9o/kC4z/xSNAwkMYcGgqDV3BE3Hw==
 
-depd@^1.1.0, depd@^1.1.2, depd@~1.1.2:
+depd@^1.1.2, depd@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/depd/download/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
@@ -2565,7 +2580,7 @@ detect-libc@^1.0.2:
   resolved "http://registry.npm.taobao.org/detect-libc/download/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
-detect-port@^1.2.3, detect-port@^1.3.0:
+detect-port@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/detect-port/-/detect-port-1.3.0.tgz#d9c40e9accadd4df5cac6a782aefd014d573d1f1"
   integrity sha512-E+B1gzkl2gqxt1IhUzwjrxBKRqx1UzC3WLONHinn8S3T6lwV/agVCyitiFOsGJ/eYuEUBvD71MZHy3Pv1G9doQ==
@@ -2598,7 +2613,7 @@ digest-header@^0.0.1:
   dependencies:
     utility "0.1.11"
 
-dir-glob@2.0.0, dir-glob@^2.0.0:
+dir-glob@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.0.0.tgz#0b205d2b6aef98238ca286598a8204d29d0a0034"
   integrity sha512-37qirFDz8cA5fimp9feo43fSuRo2gHwaIn6dXL8Ber1dGwUosDrGZeCCXq57WnIqE4aQ+u3eQZzsk1yOzhdwag==
@@ -2787,19 +2802,6 @@ egg-jsonp@^2.0.0:
     is-type-of "^1.2.0"
     jsonp-body "^1.0.0"
 
-egg-logger@^1.7.1:
-  version "1.7.1"
-  resolved "http://registry.npm.taobao.org/egg-logger/download/egg-logger-1.7.1.tgz#1536acf185eeaf1d5211241ca5bdcaaabe2ab228"
-  integrity sha1-FTas8YXurx1SESQcpb3Kqr4qsig=
-  dependencies:
-    chalk "^1.1.3"
-    circular-json "^0.5.4"
-    debug "^2.6.2"
-    depd "^1.1.0"
-    iconv-lite "^0.4.15"
-    mkdirp "^0.5.1"
-    utility "^1.11.0"
-
 egg-logger@^2.3.2, egg-logger@^2.4.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/egg-logger/-/egg-logger-2.7.1.tgz#4ff21eb75f46c5f0866c7172ec696d47e223f710"
@@ -2823,31 +2825,32 @@ egg-logrotator@^3.0.5:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.21.0.tgz#751f0c065d612efbc938096e2f04e569402e45cf"
-  integrity sha512-0r1Fqg910cm3Ws+j8WEtk8XjrRAFoy7AzQXGMzhB8CxuKZM4ZU45fnWHSB0kdClMtatWTyLzYDtVDBc5ASd1PQ==
+egg-mock@3.26.0:
+  version "3.26.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.26.0.tgz#53fd8826c3e70a0e28fbc0c536cb9144ab15c1b7"
+  integrity sha512-ip7OhhKrgXp8awgl3n8jUGc+06P5jjHPj0n/E49PFIt9LH7n8pLijqDbbH8cwYlyPUDI66NCbCbG1Br652j7ng==
   dependencies:
     "@types/power-assert" "^1.5.0"
+    "@types/supertest" "^2.0.7"
     await-event "^2.1.0"
     co "^4.6.0"
-    coffee "^5.1.0"
-    debug "^4.0.1"
-    detect-port "^1.2.3"
-    egg-logger "^1.7.1"
+    coffee "^5.2.1"
+    debug "^4.1.1"
+    detect-port "^1.3.0"
+    egg-logger "^2.4.1"
     egg-utils "^2.4.1"
     extend2 "^1.0.0"
     get-ready "^2.0.1"
-    globby "^8.0.1"
-    is-type-of "^1.2.0"
+    globby "^9.2.0"
+    is-type-of "^1.2.1"
     ko-sleep "^1.0.3"
     merge-descriptors "^1.0.1"
     methods "^1.1.2"
-    mm "^2.4.1"
+    mm "^2.5.0"
+    mz-modules "^2.1.0"
     power-assert "^1.6.1"
-    rimraf "^2.6.2"
-    supertest "^3.3.0"
-    urllib "^2.29.1"
+    supertest "^4.0.2"
+    urllib "^2.33.3"
 
 egg-multipart@^2.4.0:
   version "2.13.1"
@@ -4042,19 +4045,6 @@ globby@^10.0.2:
     ignore "^5.1.1"
     merge2 "^1.2.3"
     slash "^3.0.0"
-
-globby@^8.0.1:
-  version "8.0.1"
-  resolved "http://registry.npm.taobao.org/globby/download/globby-8.0.1.tgz#b5ad48b8aa80b35b814fc1281ecc851f1d2b5b50"
-  integrity sha1-ta1IuKqAs1uBT8EoHsyFHx0rW1A=
-  dependencies:
-    array-union "^1.0.1"
-    dir-glob "^2.0.0"
-    fast-glob "^2.0.2"
-    glob "^7.1.2"
-    ignore "^3.3.5"
-    pify "^3.0.0"
-    slash "^1.0.0"
 
 globby@^8.0.2:
   version "8.0.2"
@@ -5517,10 +5507,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mm@^2.4.1:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/mm/download/mm-2.4.1.tgz#d5885ecb954196e89393cff255b84782feb3a1bc"
-  integrity sha1-1Yhey5VBluiTk8/yVbhHgv6zobw=
+mm@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/mm/-/mm-2.5.0.tgz#dfb993762c1468b591c4c4fcd47dff45ed01378a"
+  integrity sha512-ilm+lGEBNm7Cw45um9ax0tbApiNwQV3PY6Yk1ol+wtA8c98hHuJqTgmdKB6rYQJTUC2QrhBfoWwN+/766ZlrYA==
   dependencies:
     is-type-of "^1.0.0"
     ko-sleep "^1.0.2"
@@ -7550,10 +7540,18 @@ superagent@^3.8.3:
     qs "^6.5.1"
     readable-stream "^2.3.5"
 
-supertest@3.3.0, supertest@^3.3.0:
+supertest@3.3.0:
   version "3.3.0"
   resolved "http://registry.npm.taobao.org/supertest/download/supertest-3.3.0.tgz#79b27bd7d34392974ab33a31fa51a3e23385987e"
   integrity sha1-ebJ719NDkpdKszox+lGj4jOFmH4=
+  dependencies:
+    methods "^1.1.2"
+    superagent "^3.8.3"
+
+supertest@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/supertest/-/supertest-4.0.2.tgz#c2234dbdd6dc79b6f15b99c8d6577b90e4ce3f36"
+  integrity sha512-1BAbvrOZsGA3YTCWqbmh14L0YEq0EGICX/nBnfkfVJn7SrxQV1I3pMYjSzG9y/7ZU2V9dWqyqk2POwxlb09duQ==
   dependencies:
     methods "^1.1.2"
     superagent "^3.8.3"
@@ -7923,7 +7921,7 @@ urix@^0.1.0:
   resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib@^2.24.0, urllib@^2.25.1, urllib@^2.29.1:
+urllib@^2.24.0, urllib@^2.25.1:
   version "2.31.3"
   resolved "http://registry.npm.taobao.org/urllib/download/urllib-2.31.3.tgz#10fe5e71c242376e1450cc43573ac485db19029f"
   integrity sha1-EP5eccJCN24UUMxDVzrEhdsZAp8=
@@ -7943,7 +7941,7 @@ urllib@^2.24.0, urllib@^2.25.1, urllib@^2.29.1:
     statuses "^1.3.1"
     utility "^1.12.0"
 
-urllib@^2.33.0:
+urllib@^2.33.0, urllib@^2.33.3:
   version "2.38.0"
   resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.38.0.tgz#5c0088f42091ef1cef07bb2547677487170414f5"
   integrity sha512-8nim/hlS5GXtWe2BJ6usPimKx5VE3nenXgcG26ip5Ru+MKPddINH8uLpZ948n6ADhlus6A0AYj8xTYNmGQi8yA==
@@ -7981,7 +7979,7 @@ utility@0.1.11:
   dependencies:
     address ">=0.0.1"
 
-utility@^1.11.0, utility@^1.12.0, utility@^1.13.1, utility@^1.14.0, utility@^1.15.0:
+utility@^1.12.0, utility@^1.13.1, utility@^1.14.0, utility@^1.15.0:
   version "1.15.0"
   resolved "http://registry.npm.taobao.org/utility/download/utility-1.15.0.tgz#660d81c656a3c50e3c3b75d5fc440d74fa876dfa"
   integrity sha1-Zg2BxlajxQ48O3XV/EQNdPqHbfo=
