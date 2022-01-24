@@ -15,7 +15,7 @@
     "MongoDB"
   ],
   "dependencies": {
-    "koa2-session-mongo": "^0.0.1-rc.0",
+    "koa2-session-mongo": "^0.1.0",
     "mongodb": "^3.1.10"
   },
   "devDependencies": {
