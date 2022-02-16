@@ -2883,10 +2883,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.17.0.tgz#5b552647e8c131010d88e9a6e2d01de96592b5ca"
-  integrity sha512-oRbqaxfwdDslPpYN0TiKgkwKwmbwmXdCiG5bo2nGQutCLvJwEAubdQkCp3RMzMlZpxWpa/5/Seq/7m36rGPVXg==
+egg-bin@4.18.0:
+  version "4.18.0"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.18.0.tgz#22901898fa5292896430932e342e97aea090b4c3"
+  integrity sha512-9s0aOidK8XvnwavFS9v3f8r85OHEUrxnsCZjTG6qmHVV0pflgs/rQ11pUkrC9FSiHkQBbenxp/iFKIeBQsOVaA==
   dependencies:
     chalk "^4.1.1"
     co-mocha "^1.2.2"
