@@ -3529,10 +3529,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-11.0.1.tgz#89b8016deca3b158e2429a66f82646d7e96484c0"
-  integrity sha512-v7sA+uPSJ15ezTuD1F2PnEgDUvakIbionFhbZaMAF9fs3vDHAMzmVUJWMDGEbTt4DXE7VMCYTPUGgB6YFcCr2g==
+eslint-config-egg@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-11.1.0.tgz#35be171ae2d774ba15ea9a75fa57233065813bbd"
+  integrity sha512-O+0OMJlDn4+WnZnXsbijluIgkHqUQ9DWKDZ6IiPDsr2xqfodLlapS00VE88e0JyASGn12VxaL9u+rSdj9DFCbg==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/eslint-parser" "^7.16.3"
