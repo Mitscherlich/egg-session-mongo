@@ -2903,10 +2903,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.1.0.tgz#e33f005d56d347210c9c0e1cedce6ba14793d267"
-  integrity sha512-VMT2ybezfuQ3HZlgSjROilgK+XtAinmHppWBGuIUngTmN0VVPB4V2p6gcMP+/7RUvAMmv42UuR61iUUaU/DowQ==
+egg-bin@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.1.1.tgz#e96c924f48dd8499068010e8830db33e1a9374ef"
+  integrity sha512-JHRvn8dzf/t7Bj9DxNGgv03/FlpREQjW0kVTrBZIJWD1SVbiyovoH909iLH3ZQU/Xrnx8uWntMAfEEHG9CI5cw==
   dependencies:
     autod "^3.1.2"
     c8 "^7.11.3"
