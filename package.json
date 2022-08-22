@@ -21,7 +21,7 @@
   "devDependencies": {
     "autod": "3.1.2",
     "autod-egg": "1.1.0",
-    "egg": "2.36.0",
+    "egg": "3.0.0",
     "egg-bin": "5.2.0",
     "egg-ci": "2.1.0",
     "egg-mock": "4.2.1",
