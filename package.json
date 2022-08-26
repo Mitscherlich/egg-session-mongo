@@ -27,7 +27,7 @@
     "egg-mock": "4.2.1",
     "eslint": "8.22.0",
     "eslint-config-egg": "12.0.0",
-    "mongoose": "6.5.2",
+    "mongoose": "6.5.3",
     "mz-modules": "2.1.0",
     "supertest": "6.2.4",
     "webstorm-disable-index": "1.2.0"
