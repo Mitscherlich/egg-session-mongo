@@ -3134,10 +3134,10 @@ egg-mock@4.2.1:
     supertest "^4.0.2"
     urllib "^2.33.3"
 
-egg-multipart@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/egg-multipart/-/egg-multipart-3.0.0.tgz#5711c9a5dcf5ef97b54cfab8435e9a1028440f4d"
-  integrity sha512-c6dV3b3bovFNx0UNXgBLLiikwhChmSiFcaRy6s74H081ZOOvJRBpfw9QlSSJ0WFByRxtW2W3NV3D/iMmURNanQ==
+egg-multipart@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/egg-multipart/-/egg-multipart-3.1.0.tgz#d0718cbcca5c0288627aa739242042cc59c104f0"
+  integrity sha512-Njr+htGb6a8WDjB6SAKrdeuda+eR+MXk4x2KFHuGx1xHs2MBAhIeIHSEm4iZJGyvIS3Jsl4bPbITDMMyVVynCA==
   dependencies:
     co-busboy "^2.0.0"
     dayjs "^1.11.5"
@@ -3258,10 +3258,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.3.0.tgz#bf87f3d151f2dcd216214b96b1cd35d1c7059f80"
-  integrity sha512-G/07e0VuJWdsqtlI/NVP6a+ndHYrYyL3H0aJu/pp0eROw5KVjNuh0GxwmBuUVa8zs5vx6UKwj1LkcFQdphstcw==
+egg@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.3.2.tgz#9b067ae6aa76f8ca0dd4c73e9fd07cc912c441fd"
+  integrity sha512-RVv/K3Bf0ecCLxF37+a0BWxEq8uzMYtAp8YrxZvSj0FhS0PS+EnPJdmW1V/Jv566S61jthDGpEoBdHAbdRhoug==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3282,7 +3282,7 @@ egg@3.3.0:
     egg-jsonp "^2.0.0"
     egg-logger "^2.9.0"
     egg-logrotator "^3.1.0"
-    egg-multipart "^3.0.0"
+    egg-multipart "^3.1.0"
     egg-onerror "^2.1.1"
     egg-schedule "^3.7.0"
     egg-security "^2.11.0"
