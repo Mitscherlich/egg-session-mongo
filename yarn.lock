@@ -2401,13 +2401,6 @@ colors@^1.1.2:
   resolved "http://registry.npm.taobao.org/colors/download/colors-1.3.3.tgz#39e005d546afe01e01f9c4ca8fa50f686a01205d"
   integrity sha1-OeAF1Uav4B4B+cTKj6UPaGoBIF0=
 
-combined-stream@^1.0.6:
-  version "1.0.7"
-  resolved "http://registry.npm.taobao.org/combined-stream/download/combined-stream-1.0.7.tgz#2d1d24317afb8abe95d6d2c0b07b57813539d828"
-  integrity sha1-LR0kMXr7ir6V1tLAsHtXgTU52Cg=
-  dependencies:
-    delayed-stream "~1.0.0"
-
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2444,7 +2437,7 @@ common-bin@^3.0.0:
     yargs "^13.3.0"
     yargs-parser "^13.1.2"
 
-component-emitter@^1.2.0, component-emitter@^1.2.1:
+component-emitter@^1.2.1:
   version "1.2.1"
   resolved "http://registry.npm.taobao.org/component-emitter/download/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
   integrity sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
@@ -2510,11 +2503,6 @@ cookie@^0.3.1:
   version "0.3.1"
   resolved "http://registry.npm.taobao.org/cookie/download/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
-
-cookiejar@^2.1.0:
-  version "2.1.2"
-  resolved "http://registry.npm.taobao.org/cookiejar/download/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
-  integrity sha1-3YojVTB1L5iPmghE8/xYnjERElw=
 
 cookiejar@^2.1.3:
   version "2.1.3"
@@ -3107,10 +3095,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-4.2.1.tgz#66f524f14b9ccf6dec9753b3e4b6afc2949f675a"
-  integrity sha512-67H9OTkoJ8YLt/qJiBIZTtUoNnF2k00SKAHsRDGmMcTBmC6LC+uOMQgDz267IfGHo6llWIal7ZYoVDUtuNpkJw==
+egg-mock@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.0.0.tgz#aa86f4270de2e906ef747558af52cd9af3f66c43"
+  integrity sha512-J8FG5GruLSH9O/D3gtgwMkXfNXkTt8uqkKwyJXPOFvR/J9evm0352myjDNkwhIceH7xXl3LeJskDLqe54YEI6w==
   dependencies:
     "@types/power-assert" "^1.5.0"
     "@types/supertest" "^2.0.7"
@@ -3125,14 +3113,12 @@ egg-mock@4.2.1:
     get-ready "^2.0.1"
     globby "^9.2.0"
     is-type-of "^1.2.1"
-    ko-sleep "^1.0.3"
     merge-descriptors "^1.0.1"
     methods "^1.1.2"
     mm "^3.0.2"
-    mz-modules "^2.1.0"
     power-assert "^1.6.1"
-    supertest "^4.0.2"
-    urllib "^2.33.3"
+    supertest "^6.2.4"
+    urllib "^3.2.3"
 
 egg-multipart@^3.1.0:
   version "3.1.0"
@@ -3976,7 +3962,7 @@ extend2@^1.0.1:
   resolved "https://registry.yarnpkg.com/extend2/-/extend2-1.0.1.tgz#ba9eee03bd6608995990c309b8c285316671c221"
   integrity sha512-ISoKeVhtewd5YHzMo+r9KC3Zx0fdpNBqoRzot+6BeEQ3bWQYQQOt0jkkY5gLveI2e7j+vdCJKeszHJIbg2Uceg==
 
-extend@3, extend@^3.0.0, extend@^3.0.1:
+extend@3, extend@^3.0.1:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
@@ -4145,15 +4131,6 @@ form-data-encoder@^1.7.2:
   resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-1.7.2.tgz#1f1ae3dccf58ed4690b86d87e4f57c654fbab040"
   integrity sha512-qfqtYan3rxrnCk1VYaA4H+Ms9xdpPqvLZa6xmMgFvhO32x7/3J/ExcTd6qpxM0vH2GdMI+poehyBZvqfMTto8A==
 
-form-data@^2.3.1:
-  version "2.3.3"
-  resolved "http://registry.npm.taobao.org/form-data/download/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
-  integrity sha1-3M5SwF9kTymManq5Nr1yTO/786Y=
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.6"
-    mime-types "^2.1.12"
-
 form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
@@ -4170,11 +4147,6 @@ formdata-node@^4.3.3:
   dependencies:
     node-domexception "1.0.0"
     web-streams-polyfill "4.0.0-beta.3"
-
-formidable@^1.2.0:
-  version "1.2.1"
-  resolved "http://registry.npm.taobao.org/formidable/download/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
-  integrity sha1-cPt8oCkO5v+WEJBBX0s989IIJlk=
 
 formidable@^2.0.1:
   version "2.0.1"
@@ -5687,7 +5659,7 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-methods@^1.0.1, methods@^1.1.1, methods@^1.1.2:
+methods@^1.0.1, methods@^1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
@@ -5747,11 +5719,6 @@ mime@2.6.0, mime@^2.5.2:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.6.0.tgz#a2a682a95cd4d0cb1d6257e28f83da7e35800367"
   integrity sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==
-
-mime@^1.4.1:
-  version "1.6.0"
-  resolved "http://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
-  integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -6911,7 +6878,7 @@ qs@^6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.4.0, qs@^6.5.1, qs@^6.5.2:
+qs@^6.4.0, qs@^6.5.2:
   version "6.6.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
   integrity sha1-qZwPaajSa/fvAS+HHNq7Cu5EJMI=
@@ -7847,22 +7814,6 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-superagent@^3.8.3:
-  version "3.8.3"
-  resolved "http://registry.npm.taobao.org/superagent/download/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
-  integrity sha1-Rg6g29t9WxG8T3jeulZfhqF44Sg=
-  dependencies:
-    component-emitter "^1.2.0"
-    cookiejar "^2.1.0"
-    debug "^3.1.0"
-    extend "^3.0.0"
-    form-data "^2.3.1"
-    formidable "^1.2.0"
-    methods "^1.1.1"
-    mime "^1.4.1"
-    qs "^6.5.1"
-    readable-stream "^2.3.5"
-
 superagent@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/superagent/-/superagent-8.0.0.tgz#2ea4587df4b81ef023ec01ebc6e1bcb9e2344cb6"
@@ -7880,21 +7831,13 @@ superagent@^8.0.0:
     readable-stream "^3.6.0"
     semver "^7.3.7"
 
-supertest@6.2.4:
+supertest@6.2.4, supertest@^6.2.4:
   version "6.2.4"
   resolved "https://registry.yarnpkg.com/supertest/-/supertest-6.2.4.tgz#3dcebe42f7fd6f28dd7ac74c6cba881f7101b2f0"
   integrity sha512-M8xVnCNv+q2T2WXVzxDECvL2695Uv2uUj2O0utxsld/HRyJvOU8W9f1gvsYxSNU4wmIe0/L/ItnpU4iKq0emDA==
   dependencies:
     methods "^1.1.2"
     superagent "^8.0.0"
-
-supertest@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/supertest/-/supertest-4.0.2.tgz#c2234dbdd6dc79b6f15b99c8d6577b90e4ce3f36"
-  integrity sha512-1BAbvrOZsGA3YTCWqbmh14L0YEq0EGICX/nBnfkfVJn7SrxQV1I3pMYjSzG9y/7ZU2V9dWqyqk2POwxlb09duQ==
-  dependencies:
-    methods "^1.1.2"
-    superagent "^3.8.3"
 
 supports-color@8.1.1:
   version "8.1.1"
@@ -8346,7 +8289,7 @@ urllib@^2.24.0, urllib@^2.25.1:
     statuses "^1.3.1"
     utility "^1.12.0"
 
-urllib@^2.33.0, urllib@^2.33.3:
+urllib@^2.33.0:
   version "2.38.0"
   resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.38.0.tgz#5c0088f42091ef1cef07bb2547677487170414f5"
   integrity sha512-8nim/hlS5GXtWe2BJ6usPimKx5VE3nenXgcG26ip5Ru+MKPddINH8uLpZ948n6ADhlus6A0AYj8xTYNmGQi8yA==
@@ -8366,6 +8309,20 @@ urllib@^2.33.0, urllib@^2.33.3:
     qs "^6.4.0"
     statuses "^1.3.1"
     utility "^1.16.1"
+
+urllib@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-3.2.3.tgz#8198493804ffcfa3291e2daef6ff6f46673d4b39"
+  integrity sha512-ITHb33wz38fi2VXAs80282+eXt+05fgNCZLHZk+ags9yoDe31pZ6S5NHLXsHf+IiRCa7fgi1/+UqHqFa1SxPMw==
+  dependencies:
+    default-user-agent "^1.0.0"
+    digest-header "^0.0.1"
+    form-data-encoder "^1.7.2"
+    formdata-node "^4.3.3"
+    mime-types "^2.1.35"
+    pump "^3.0.0"
+    tslib "^2.4.0"
+    undici "^5.6.0"
 
 use@^3.1.0:
   version "3.1.1"
