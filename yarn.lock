@@ -3530,16 +3530,16 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-12.0.0.tgz#6d9a39e5581407d78e0e4820345c29dbc2797bb9"
-  integrity sha512-GKtysK6RoXR/ZtjvsbMz0OSyivhmxfFbkgz1e5udEWS/oa9HEhKo0OeE0pwC1VAXpYhsCkSH3elqT7wh1YZOyw==
+eslint-config-egg@12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-12.1.0.tgz#2a96873963c16c9b5923bb8b8154d8125b1d2c83"
+  integrity sha512-xRBDg0Uesa+TErYtHOEU2WILgqIFoSHKcmmE6T2GLP/WPbVujaWaAxPYF3Oj40WL0dshNzGreblCI8lysTqTCQ==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/eslint-parser" "^7.16.3"
     "@typescript-eslint/eslint-plugin" "^5.4.0"
     "@typescript-eslint/parser" "^5.4.0"
-    eslint-plugin-eggache "^1.0.0"
+    eslint-plugin-eggache "^2.0.0"
     eslint-plugin-import "^2.25.3"
     eslint-plugin-jsdoc "^39.3.0"
     eslint-plugin-jsx-a11y "^6.5.1"
@@ -3562,10 +3562,10 @@ eslint-module-utils@^2.7.2:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-eggache@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-eggache/download/eslint-plugin-eggache-1.0.0.tgz#1f8f98c698d2b511519fbdefbae78fe230487aa4"
-  integrity sha1-H4+YxpjStRFRn73vuueP4jBIeqQ=
+eslint-plugin-eggache@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-eggache/-/eslint-plugin-eggache-2.0.0.tgz#f81e5414d993188af45afc2417777e2d478d4009"
+  integrity sha512-IHPrZ8LZgTRJTN5e6bXEgmv4vE0yDTAYFgHyvlf2KED8gRSiZ/kVPur+VHjpV4/8OVGJg2YaNEqsiBHxgMCKyA==
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
