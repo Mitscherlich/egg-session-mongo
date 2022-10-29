@@ -23,7 +23,7 @@
     "autod-egg": "1.1.0",
     "egg": "3.3.3",
     "egg-bin": "5.2.0",
-    "egg-ci": "2.1.0",
+    "egg-ci": "2.2.0",
     "egg-mock": "5.0.2",
     "eslint": "8.26.0",
     "eslint-config-egg": "12.1.0",
