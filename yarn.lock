@@ -3641,10 +3641,10 @@ egg-bin@5.2.0:
     ts-node "^10.8.0"
     ypkgfiles "^1.6.0"
 
-egg-ci@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/egg-ci/-/egg-ci-2.1.0.tgz#4edf036893d8f16477c5d125280591bb36148e1b"
-  integrity sha512-y0EP+gWW5zz2ch1aOlhrta6GaX0du1nCKp9cMwc0JQOxtKsD0b0nRDwtzgaNsuEFcPgM9jzuD6SPtEVOzKrkFQ==
+egg-ci@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/egg-ci/-/egg-ci-2.2.0.tgz#b491482bf7a577e1ac6bc81601e731d8de7253ca"
+  integrity sha512-xvL+k8VA7xrV3OmAkMRb2rrpv74uz74L1+ccjRHmRYNzVcGp4l/d0YlMZWpZ5e489CZS5PIJ3zclEM235l6pLA==
   dependencies:
     nunjucks "^3.1.3"
 
