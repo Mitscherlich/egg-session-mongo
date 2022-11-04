@@ -3613,10 +3613,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.2.0.tgz#25d03018fc51571418e3b14a171a68717bf11368"
-  integrity sha512-mCoh1Jp0VeFBozEH25UpZnwUhB03IOGe1cH833eQJdXiKNicVwaKCTgs6EMItuD+ugYJy6ZpeljwIzF7eOuYQg==
+egg-bin@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.3.1.tgz#1c0fda4f2710466d8bf8242723ce5c96a6b80002"
+  integrity sha512-NrLutw+UMLcDysUYSUdy3/zXa0EU6e9/SM+YrULsmOPkHwVtYcIhanrOMiQzwCI2kS2ETF9RVWD92EucT5leXg==
   dependencies:
     autod "^3.1.2"
     c8 "^7.11.3"
