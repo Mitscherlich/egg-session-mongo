@@ -3778,10 +3778,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.0.2.tgz#0685c0d9bfb40d83edc1a418a141c27c25b3421e"
-  integrity sha512-hvr4EmcZG5j+gOjx1hxQxhDWnhhJ1QK08rbZIFyJ83M3q0h7iWVZ1CO4Cdm8eOQeJJDHW2zXxqAtk+DApLbmDw==
+egg-mock@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.1.0.tgz#4c4603289400d5635cf0fa5fd83229245b31b4b5"
+  integrity sha512-Nr1QadhuLfMDuPKMbvP1+CLDzjkQdYWajbaFgKgbx4AylztesLt9hHE4ZMZrf/h7TDRNVxkEPudAFZuezOaCjA==
   dependencies:
     "@types/power-assert" "^1.5.0"
     "@types/supertest" "^2.0.7"
@@ -3800,6 +3800,7 @@ egg-mock@5.0.2:
     methods "^1.1.2"
     mm "^3.0.2"
     power-assert "^1.6.1"
+    sdk-base "^3.0.1"
     supertest "^6.2.4"
     urllib-next "^3.2.3"
 
@@ -7937,6 +7938,16 @@ sdk-base@^2.0.1:
   integrity sha1-ukAonovfJy7RHdnql+r5jgNtJMY=
   dependencies:
     get-ready "~1.0.0"
+
+sdk-base@^3.0.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/sdk-base/-/sdk-base-3.6.0.tgz#7cee1fa3a81fdc61b2c20d1130c8765f8d90e588"
+  integrity sha512-jxHUIrRLlAoRFRwiXKhOGjd6BeFWO/jz7tv+E7lbMSef6F9jzFN2Sv3hLW58oDDKscKaBGG6vQdkbXn7isE7fw==
+  dependencies:
+    await-event "^2.1.0"
+    await-first "^1.0.0"
+    co "^4.6.0"
+    is-type-of "^1.2.1"
 
 sdk-base@^3.1.1, sdk-base@^3.5.0, sdk-base@^3.5.1:
   version "3.5.1"
