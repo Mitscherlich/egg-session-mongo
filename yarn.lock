@@ -2978,10 +2978,10 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-cluster-client@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-3.1.1.tgz#4e20d7d19c527d7f8cb9f7389f2a3d4e00f9628e"
-  integrity sha512-h4CbADGLh8j9+asM0KAyDn93vygn2tJujF5Ays+ta6WuL+i3cLIHE9QWxGwZIxf7EERJg7xLbZD422RwJzsdjA==
+cluster-client@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-3.3.0.tgz#39c65efc871db42d05fe76d990cd5b86031e7cd4"
+  integrity sha512-3i2GswVL1mwpilwbC1oNolJZsRV3slSjYGAc04KPnDmOKjzE+Merjpb+i1YTZh7pD5xC5rGs57hbk6FQA8DpyQ==
   dependencies:
     byte "^2.0.0"
     co "^4.6.0"
@@ -3641,15 +3641,14 @@ egg-ci@2.2.0:
   dependencies:
     nunjucks "^3.1.3"
 
-egg-cluster@^1.27.1:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-1.27.1.tgz#7cc34a765145b7c1b6c871ff4b9c03c64a324d8d"
-  integrity sha512-zKZV7WS5HwQYXU8TG5lwXe9+iQTw3jZYI4bMzLnRcOuxAhsx0fw1mgeR85Uj9WE+FP0/nexNNjcfFzb6jkzbsw==
+egg-cluster@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-2.0.0.tgz#0d751d2cc5a64a37011ee265e50b52d7acf532bc"
+  integrity sha512-LgCGlZ2MaF4RkaUGcNzXbnOQ4F0T5Nzg6o9Q8Osxynv0XTPzWBRz9ndhL150myaUaos/thYU/7aHtv+53nG2xg==
   dependencies:
     await-event "^2.1.0"
     cfork "^1.7.1"
     cluster-reload "^1.0.2"
-    co "^4.6.0"
     debug "^4.1.1"
     depd "^2.0.0"
     detect-port "^1.3.0"
@@ -3921,10 +3920,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.3.3.tgz#bbf0d4ead8f48dc4a6241fbb1976566aeecd2b18"
-  integrity sha512-1UCaqpEMd6qqe+p/JTKyk/nQJ9cjMBnBWCWMbNP3YsYJqrJPrhbBfMYVxX7hMnU66seJyRrmG3/kyp+D6i13xw==
+egg@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.5.0.tgz#96cfdcdea7c87a91fae345b3e6d8b377ed10faa2"
+  integrity sha512-eifZ6cAGm9u3SGMHp8pUovTTpedQ5IoK1R34Pw7dJdRK081ZYNCV016UZJFKL3itpjHb1x5bQNFuFtOHlHsV3g==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3933,10 +3932,10 @@ egg@3.3.3:
     agentkeepalive "^4.2.1"
     cache-content-type "^1.0.1"
     circular-json-for-egg "^1.0.0"
-    cluster-client "^3.1.1"
+    cluster-client "^3.3.0"
     debug "^4.3.4"
     delegates "^1.0.0"
-    egg-cluster "^1.27.1"
+    egg-cluster "^2.0.0"
     egg-cookies "^2.6.1"
     egg-core "^4.26.1"
     egg-development "^2.7.0"
@@ -3961,9 +3960,7 @@ egg@3.3.3:
     koa-is-json "^1.0.0"
     koa-override "^3.0.0"
     ms "^2.1.3"
-    mz "^2.7.0"
     on-finished "^2.4.1"
-    semver "^7.3.7"
     sendmessage "^1.1.0"
     urllib "^2.33.0"
     urllib-next "^3.1.3"
