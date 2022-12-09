@@ -3696,10 +3696,10 @@ egg-cookies@^2.6.1:
     should-send-same-site-none "^2.0.2"
     utility "^1.14.0"
 
-egg-core@^4.26.1:
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.26.1.tgz#3e45c5d4b47a7e2371f91c68bd75eeeeabe4ac6c"
-  integrity sha512-+I+5lWqBtLLRQFfVUbalmEoZDnENUhvuv0cRWRPJECL73IOg1Rwlp1ivAjGz8aG3e2Lm+ChZsDICOXfTQoZa3Q==
+egg-core@^4.29.0:
+  version "4.29.0"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.29.0.tgz#7805e95392c0594e42fe88e1845d4e5f0187e49c"
+  integrity sha512-2Jhiw2OU3ffe+H5WAXl3HBQXDnmj4BuXGf/cQaXyIBCXqyerRSa8CjrYUf6MLlbtH8HXhFYbHpUAtKwCQvBx4Q==
   dependencies:
     "@eggjs/router" "^2.0.0"
     "@types/depd" "^1.1.32"
@@ -3713,7 +3713,7 @@ egg-core@^4.26.1:
     get-ready "^2.0.1"
     globby "^10.0.2"
     is-type-of "^1.2.1"
-    koa "^2.7.0"
+    koa "^2.14.0"
     koa-convert "^1.2.0"
     node-homedir "^1.1.1"
     ready-callback "^2.1.0"
@@ -3943,10 +3943,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.5.0.tgz#96cfdcdea7c87a91fae345b3e6d8b377ed10faa2"
-  integrity sha512-eifZ6cAGm9u3SGMHp8pUovTTpedQ5IoK1R34Pw7dJdRK081ZYNCV016UZJFKL3itpjHb1x5bQNFuFtOHlHsV3g==
+egg@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.6.0.tgz#bd23e52dbd6c6be859a6f1f3f4d7ed01e30c008a"
+  integrity sha512-Wei/K6ftkIAkbQSuf9fNJJyRAnToLSot+WY6K9QBFggSz1v6XcmgeOONYMmI0FkNW34gaY0G3Xgyw2q2Ht2kwg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3960,7 +3960,7 @@ egg@3.5.0:
     delegates "^1.0.0"
     egg-cluster "^2.0.0"
     egg-cookies "^2.6.1"
-    egg-core "^4.26.1"
+    egg-core "^4.29.0"
     egg-development "^2.7.0"
     egg-errors "^2.3.1"
     egg-i18n "^2.1.1"
@@ -6166,10 +6166,10 @@ koa2-session-mongo@^0.1.0:
   dependencies:
     mongodb "^3.6.4"
 
-koa@^2.7.0:
-  version "2.13.4"
-  resolved "https://registry.yarnpkg.com/koa/-/koa-2.13.4.tgz#ee5b0cb39e0b8069c38d115139c774833d32462e"
-  integrity sha512-43zkIKubNbnrULWlHdN5h1g3SEKXOEzoAlRsHOTFpnlDu8JlAOZSMJBLULusuXRequboiwJcj5vtYXKB3k7+2g==
+koa@^2.14.0:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/koa/-/koa-2.14.1.tgz#defb9589297d8eb1859936e777f3feecfc26925c"
+  integrity sha512-USJFyZgi2l0wDgqkfD27gL4YGno7TfUkcmOe6UOLFOVuN+J7FwnNu4Dydl4CUQzraM1lBAiGed0M9OVJoT0Kqw==
   dependencies:
     accepts "^1.3.5"
     cache-content-type "^1.0.0"
