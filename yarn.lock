@@ -3769,10 +3769,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.3.0.tgz#83de0c9ae3e791076c2884e3cfed2054897bf384"
-  integrity sha512-Nd0SJxyUnNtC+6hgwJxzEJMlTS+OexJOl+ounTbMi2w2tzS7EGJzdCXBhFy9y3EaN3xdlJd7DVhSuKppxk7Upw==
+egg-mock@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.4.0.tgz#afe49c121237c440d8406a41396ec46d6a26e646"
+  integrity sha512-T2etpRU2f0uPUKhiHrp7OXxOp0+rSSmSp7vlKOzzRjdSyaA/JmOzp51mlHhzgJ/mm1+DZDKdFnq3ULFBlmv+dg==
   dependencies:
     "@types/power-assert" "^1.5.0"
     "@types/supertest" "^2.0.7"
