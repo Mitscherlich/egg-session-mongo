@@ -3543,6 +3543,13 @@ digest-header@^0.0.1:
   dependencies:
     utility "0.1.11"
 
+digest-header@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/digest-header/-/digest-header-1.0.0.tgz#60227a57b55e5f0b023055a875111a247662189d"
+  integrity sha512-sRTuakZ2PkOUCuAaVv+SLjhr/hRf8ldZP0XnGEQ69RFGxmll5fVaMsnRXWKKK4XsUTnJf8+eRPSFNgE/lWa9wQ==
+  dependencies:
+    utility "^1.17.0"
+
 dir-glob@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.2.2.tgz#fa09f0694153c8918b18ba0deafae94769fc50c4"
@@ -3912,10 +3919,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.8.0.tgz#815bf6b69331663125cfe3218c109a799f836a2a"
-  integrity sha512-b+PrqbX3OZi2bbpnoVgiz0mpx1VvEeuPiJwfSv2d1NhB0mjWFzTlnss/DHECHM6xTuapPVfpV57GA51e5Ck3pg==
+egg@3.9.1:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.9.1.tgz#2edb245d8f5f232b7b4ba5be1f4d13dbfc96a7c0"
+  integrity sha512-8FYaR2ueRmlFseTn9UTs/4fibwRGd/XUfy+ba3UJ7VOLzdBskuQXPuHku1v9ZrqFzLpy1j6uRlYwM4wI79mC1w==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3955,7 +3962,7 @@ egg@3.8.0:
     on-finished "^2.4.1"
     sendmessage "^1.1.0"
     urllib "^2.33.0"
-    urllib-next "^3.1.3"
+    urllib-next "^3.9.0"
     utility "^1.17.0"
     ylru "^1.3.2"
 
@@ -4673,7 +4680,7 @@ formidable@^2.1.1:
     once "^1.4.0"
     qs "^6.11.0"
 
-formstream@^1.1.0:
+formstream@^1.1.0, formstream@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/formstream/-/formstream-1.1.1.tgz#17259d2440c35ca9736db9f45fb3ba3f8669c750"
   integrity sha512-yHRxt3qLFnhsKAfhReM4w17jP+U1OlhUjnKPPtonwKbIJO7oBP0MvoxkRUwb8AU9n0MIkYy5X5dK6pQnbj+R2Q==
@@ -8898,10 +8905,10 @@ urix@^0.1.0:
   resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib-next@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.1.3.tgz#b5dec4a96eb2997ea5abe391d4f0998a4447b3fc"
-  integrity sha512-SKb4hpTfoggR7nfcqu5SgzJxd+z8PjUjdlcRtGkZNq1CFdSeDrvHiTR5FfxmdEchHDLGv1KE9Ittk4eKvJiNiA==
+urllib-next@^3.2.3:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.3.0.tgz#8b054f163aeacfc134a6c2e4db593348f725cb9e"
+  integrity sha512-qNKQ5UftCRQVi7E9kNON5L3YPFe5FH4RQXjEeeVmpdKlrFyxx6GRrinqvlehigozf9METZ1s53qL6+yyzcer8w==
   dependencies:
     default-user-agent "^1.0.0"
     digest-header "^0.0.1"
@@ -8912,15 +8919,16 @@ urllib-next@^3.1.3:
     tslib "^2.4.0"
     undici "^5.6.0"
 
-urllib-next@^3.2.3:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.3.0.tgz#8b054f163aeacfc134a6c2e4db593348f725cb9e"
-  integrity sha512-qNKQ5UftCRQVi7E9kNON5L3YPFe5FH4RQXjEeeVmpdKlrFyxx6GRrinqvlehigozf9METZ1s53qL6+yyzcer8w==
+urllib-next@^3.9.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.10.0.tgz#5e2762da3a2203b29d00cacc9e4f9e93a978d58b"
+  integrity sha512-sdt92SiwZK2ibICmc9ry9l1jSYiSYs1LrmUsGQS7FmEpBitZTvRVUlfca4VzJpIT29HczqG4VcoFacgb/kULxg==
   dependencies:
     default-user-agent "^1.0.0"
-    digest-header "^0.0.1"
+    digest-header "^1.0.0"
     form-data-encoder "^1.7.2"
     formdata-node "^4.3.3"
+    formstream "^1.1.1"
     mime-types "^2.1.35"
     pump "^3.0.0"
     tslib "^2.4.0"
