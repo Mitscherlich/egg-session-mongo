@@ -24,7 +24,7 @@
     "egg": "3.9.2",
     "egg-bin": "5.9.0",
     "egg-ci": "2.2.0",
-    "egg-mock": "5.5.0",
+    "egg-mock": "5.7.1",
     "eslint": "8.30.0",
     "eslint-config-egg": "12.1.0",
     "mongoose": "6.8.1",
