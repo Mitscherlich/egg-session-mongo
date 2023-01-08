@@ -1118,14 +1118,6 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/glob@^7.1.1":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"
-  integrity sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==
-  dependencies:
-    "@types/minimatch" "*"
-    "@types/node" "*"
-
 "@types/http-assert@*":
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/@types/http-assert/download/@types/http-assert-1.4.0.tgz#41d173466e396e99a14d75f7160cc997f2f9ed8b"
@@ -1180,20 +1172,6 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
-"@types/koa@^2.0.48":
-  version "2.13.4"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.4.tgz#10620b3f24a8027ef5cbae88b393d1b31205726b"
-  integrity sha512-dfHYMfU+z/vKtQB7NUrthdAEiSvnLebvBjwHtfFmpZmB7em2N3WVQdHgnFq+xvyVgxW5jKDmjWfLD3lw4g4uTw==
-  dependencies:
-    "@types/accepts" "*"
-    "@types/content-disposition" "*"
-    "@types/cookies" "*"
-    "@types/http-assert" "*"
-    "@types/http-errors" "*"
-    "@types/keygrip" "*"
-    "@types/koa-compose" "*"
-    "@types/node" "*"
-
 "@types/koa@^2.13.5":
   version "2.13.5"
   resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.5.tgz#64b3ca4d54e08c0062e89ec666c9f45443b21a61"
@@ -1212,11 +1190,6 @@
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/@types/mime/download/@types/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
   integrity sha1-WnMG42fFObn2VDSZ3o3VGfrDeos=
-
-"@types/minimatch@*":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
-  integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*":
   version "10.12.18"
@@ -3600,14 +3573,14 @@ egg-cookies@^2.6.1:
     should-send-same-site-none "^2.0.2"
     utility "^1.14.0"
 
-egg-core@^4.29.0:
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.29.0.tgz#7805e95392c0594e42fe88e1845d4e5f0187e49c"
-  integrity sha512-2Jhiw2OU3ffe+H5WAXl3HBQXDnmj4BuXGf/cQaXyIBCXqyerRSa8CjrYUf6MLlbtH8HXhFYbHpUAtKwCQvBx4Q==
+egg-core@^5.1.1:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-5.2.0.tgz#19fb8aa3e1f88ac137e4c812344ba83386a39efc"
+  integrity sha512-FwkhzrnnlJo1Z06+6Rop0zuOJfkHyqEVzMole9+adeowm9GYUfgPvdXGPSENYbbVNuK1Acq4s4ReKLNnXylA0g==
   dependencies:
     "@eggjs/router" "^2.0.0"
     "@types/depd" "^1.1.32"
-    "@types/koa" "^2.0.48"
+    "@types/koa" "^2.13.5"
     co "^4.6.0"
     debug "^4.1.1"
     depd "^2.0.0"
@@ -3615,12 +3588,13 @@ egg-core@^4.29.0:
     egg-path-matching "^1.0.1"
     extend2 "^1.0.0"
     get-ready "^2.0.1"
-    globby "^10.0.2"
+    globby "^11.0.2"
     is-type-of "^1.2.1"
     koa "^2.14.0"
     koa-convert "^1.2.0"
     node-homedir "^1.1.1"
-    ready-callback "^2.1.0"
+    ready-callback "^3.0.0"
+    tsconfig-paths "^4.1.1"
     utility "^1.16.1"
 
 egg-development@^2.7.0:
@@ -3843,10 +3817,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.9.2:
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.9.2.tgz#ff8ef04eda0ae9296ff6caaa78f65207f5da4f72"
-  integrity sha512-Z76E9bKHMb0c1v77GO5d9FLoyVlLSWhEuyNq40vK3q3RbULCnvT/51QMxPtPIV1IbEceHvuIkXFpz8XOLpxcFg==
+egg@3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.12.0.tgz#b2ca4f642ab9abb334a5e09f222830d6bacafb4e"
+  integrity sha512-xX1qxw5wwaIPZi3HkJPIZnlGxBd3Iw6mnRXuPCHmsq3SkmYDo6xHJ2zZeOCngJf7asEngKpQPQww/YgsvePzGA==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3860,7 +3834,7 @@ egg@3.9.2:
     delegates "^1.0.0"
     egg-cluster "^2.0.0"
     egg-cookies "^2.6.1"
-    egg-core "^4.29.0"
+    egg-core "^5.1.1"
     egg-development "^2.7.0"
     egg-errors "^2.3.1"
     egg-i18n "^2.1.1"
@@ -4392,7 +4366,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.0.3, fast-glob@^3.2.9:
+fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
@@ -4704,7 +4678,7 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
     has "^1.0.3"
     has-symbols "^1.0.1"
 
-get-ready@^2.0.0, get-ready@^2.0.1:
+get-ready@^2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/get-ready/download/get-ready-2.0.1.tgz#a48c418753e39cf4d01f3a420cf1b757ddcc648f"
   integrity sha1-pIxBh1PjnPTQHzpCDPG3V93MZI8=
@@ -4821,21 +4795,7 @@ globals@^9.18.0:
   resolved "http://registry.npm.taobao.org/globals/download/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha1-qjiWs+abSH8X4x7SFD1pqOMMLYo=
 
-globby@^10.0.2:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-10.0.2.tgz#277593e745acaa4646c3ab411289ec47a0392543"
-  integrity sha512-7dUi7RvCoT/xast/o/dLN53oqND4yk0nsHkhRgn9w65C4PofCLOoJ39iSOg+qVDdWQPIEj+eszMHQ+aLVwwQSg==
-  dependencies:
-    "@types/glob" "^7.1.1"
-    array-union "^2.1.0"
-    dir-glob "^3.0.1"
-    fast-glob "^3.0.3"
-    glob "^7.1.3"
-    ignore "^5.1.1"
-    merge2 "^1.2.3"
-    slash "^3.0.0"
-
-globby@^11.0.0, globby@^11.0.4, globby@^11.1.0:
+globby@^11.0.0, globby@^11.0.2, globby@^11.0.4, globby@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
   integrity sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==
@@ -6071,11 +6031,6 @@ merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
-
-merge2@^1.2.3:
-  version "1.2.3"
-  resolved "http://registry.npm.taobao.org/merge2/download/merge2-1.2.3.tgz#7ee99dbd69bb6481689253f018488a1b902b0ed5"
-  integrity sha1-fumdvWm7ZIFoklPwGEiKG5ArDtU=
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -7359,15 +7314,14 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-ready-callback@^2.1.0:
-  version "2.1.0"
-  resolved "http://registry.npm.taobao.org/ready-callback/download/ready-callback-2.1.0.tgz#e382a9e33a568b8d771e04ef4ef0eb02d3dfa7e0"
-  integrity sha1-44Kp4zpWi413HgTvTvDrAtPfp+A=
+ready-callback@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ready-callback/-/ready-callback-3.0.0.tgz#3430d540fdf1e92d30ce870645f2e03b70f38570"
+  integrity sha512-wGhjJMrxVEX35Ec+QlM2FW+ZsXhThNCbmdk+x22vzwRPPsDUNgq7C6nU0EpJRvNJSK/MiwQ73XZljo/IKhovXA==
   dependencies:
-    debug "^2.6.0"
-    get-ready "^2.0.0"
+    debug "^4.3.4"
+    get-ready "^2.0.1"
     once "^1.4.0"
-    uuid "^3.0.1"
 
 regenerate@^1.2.1:
   version "1.4.0"
@@ -8760,11 +8714,6 @@ utility@^1.16.1, utility@^1.16.3, utility@^1.17.0:
     mkdirp "^0.5.1"
     mz "^2.7.0"
     unescape "^1.0.1"
-
-uuid@^3.0.1:
-  version "3.3.2"
-  resolved "http://registry.npm.taobao.org/uuid/download/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
-  integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
 
 uuid@^3.3.2:
   version "3.4.0"
