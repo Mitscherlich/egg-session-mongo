@@ -3508,10 +3508,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@5.11.3:
-  version "5.11.3"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.11.3.tgz#5831a056fa6e7a1819f31799dbaa6217f5fe0622"
-  integrity sha512-VEjPezL4YdtjpuvtZyQ5V2UYMC4pGUmTCI142pS/DPefirUJUXgyR0/NBwSRadA5aAbL8FTyqXdodN+QcakA0g==
+egg-bin@5.12.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.12.0.tgz#e6e5742d13f0e34484cc46f967bd75aad113e961"
+  integrity sha512-3XskD3HunjopVst1y3cSe1XJRWcarQg82GZUdeb8bXvAPEKOoCGK3Q45bX0VJFf+9OhZicNZcei3/C2AfJPM4w==
   dependencies:
     autod "^3.1.2"
     c8 "^7.11.3"
@@ -3524,11 +3524,9 @@ egg-bin@5.11.3:
     globby "^11.1.0"
     inspector-proxy "^1.2.2"
     jest-changed-files "^28.0.2"
-    minimatch "^5.1.0"
     mocha "^10.0.0"
     mochawesome-with-mocha "^7.1.3"
     runscript "^1.5.3"
-    source-map-support "^0.5.21"
     test "^3.0.0"
     ts-node "^10.8.0"
     tsconfig-paths "^4.1.1"
@@ -6124,13 +6122,6 @@ minimatch@^3.0.5, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.0.tgz#1717b464f4971b144f6aabe8f2d0b8e4511e09c7"
-  integrity sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==
-  dependencies:
-    brace-expansion "^2.0.1"
-
 minimist@0.0.8:
   version "0.0.8"
   resolved "http://registry.npm.taobao.org/minimist/download/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
@@ -7856,14 +7847,6 @@ source-map-support@^0.4.15:
   integrity sha1-Aoam3ovkJkEzhZTpfM6nXwosWF8=
   dependencies:
     source-map "^0.5.6"
-
-source-map-support@^0.5.21:
-  version "0.5.21"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
-  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
-  dependencies:
-    buffer-from "^1.0.0"
-    source-map "^0.6.0"
 
 source-map-support@^0.5.6:
   version "0.5.9"
