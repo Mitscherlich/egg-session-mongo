@@ -3668,10 +3668,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@5.8.2:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.8.2.tgz#2b6f27981608c06b1569091150cd41496e5318a1"
-  integrity sha512-UPylttThmqzbRUhlcfzYjH1eEpitdDGxKtXhrFO32MikY4YVbQVawI1LqOeRrBg42bBKzOQM2sHtua5Sg84U1Q==
+egg-mock@5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.8.3.tgz#9d3290d1beac1a40989a198cc90ffc0e01c03dec"
+  integrity sha512-nU0zkU6VoCzzyPfmegs4yABObvZTbhc/kqlVwh8VT5670p0hif3QP6LwRgu6lgCwsBavOcplo+QAFahPvJMvdg==
   dependencies:
     "@types/supertest" "^2.0.7"
     await-event "^2.1.0"
