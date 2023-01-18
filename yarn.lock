@@ -3680,10 +3680,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@5.8.4:
-  version "5.8.4"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.8.4.tgz#ff97eaef3cd26468f245dc18ed80f5dc20bfb01d"
-  integrity sha512-BaIBpJmjqengUmjraBQSuOBzqLCgbOrgxPXmWvdN1uJAIb+zBQk34FSYAZ2rrQW/CjL6ODf3nKdPNSk9mxFl2g==
+egg-mock@5.9.4:
+  version "5.9.4"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.9.4.tgz#354950a4bd7af67625986df7d2dcf90dba8b831f"
+  integrity sha512-X2qfu5fZVREhEIb+Uv7j61+00bYNsgUWLThpZvSE+tgLwAEWRQ2u3hbQLNeh5jD/RF7L2oHAPoP/mQLABMyUZg==
   dependencies:
     "@types/supertest" "^2.0.7"
     await-event "^2.1.0"
@@ -3701,7 +3701,7 @@ egg-mock@5.8.4:
     mm "^3.0.2"
     sdk-base "^3.0.1"
     supertest "^6.2.4"
-    urllib-next "^3.2.3"
+    urllib "^3.10.1"
 
 egg-multipart@^3.1.0:
   version "3.1.0"
@@ -8601,20 +8601,6 @@ urix@^0.1.0:
   resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib-next@^3.2.3:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.3.0.tgz#8b054f163aeacfc134a6c2e4db593348f725cb9e"
-  integrity sha512-qNKQ5UftCRQVi7E9kNON5L3YPFe5FH4RQXjEeeVmpdKlrFyxx6GRrinqvlehigozf9METZ1s53qL6+yyzcer8w==
-  dependencies:
-    default-user-agent "^1.0.0"
-    digest-header "^0.0.1"
-    form-data-encoder "^1.7.2"
-    formdata-node "^4.3.3"
-    mime-types "^2.1.35"
-    pump "^3.0.0"
-    tslib "^2.4.0"
-    undici "^5.6.0"
-
 urllib-next@^3.9.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.10.0.tgz#5e2762da3a2203b29d00cacc9e4f9e93a978d58b"
@@ -8670,6 +8656,21 @@ urllib@^2.33.0:
     qs "^6.4.0"
     statuses "^1.3.1"
     utility "^1.16.1"
+
+urllib@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-3.10.1.tgz#83d855773a9be67979dc5eb4674176e954779c1d"
+  integrity sha512-Ool8rFaHPEjLzZEFHcoemKitJomgDf1QgkX/38iuNbuiYCjJ/3NWVzpB8Gl43RNxFk6QyVGHocOwYxpg7yiU0w==
+  dependencies:
+    default-user-agent "^1.0.0"
+    digest-header "^1.0.0"
+    form-data-encoder "^1.7.2"
+    formdata-node "^4.3.3"
+    formstream "^1.1.1"
+    mime-types "^2.1.35"
+    pump "^3.0.0"
+    tslib "^2.4.0"
+    undici "^5.6.0"
 
 use@^3.1.0:
   version "3.1.1"
