@@ -1625,7 +1625,7 @@ autod-egg@1.1.0:
   resolved "https://registry.yarnpkg.com/autod-egg/-/autod-egg-1.1.0.tgz#bc37bb954661d88ef07e30dc83e11262bf9e30ac"
   integrity sha512-dZ5ZRiHcHaehQnpEBWmxHTvQfIHKUdr10Qlrs/ZdBfb6NG2lUfNlVUGnqNVkp9wFsJJTGdN7ADmW9gkN8bSLrg==
 
-autod@3.1.2, autod@^3.1.2:
+autod@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/autod/-/autod-3.1.2.tgz#45b80ce4fe89a2ac968a1e47e00e6cd019d3ccdd"
   integrity sha512-pxR0lAF6mcuONOjIfsA+DyCy3ZlHj7WbrbwrWK8LLQc1KUhB5a9iqB8oLB1DUsfUhnEyxc8o5Vr/nl54rVENqg==
@@ -3508,16 +3508,14 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@5.12.3:
-  version "5.12.3"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.12.3.tgz#75abac2ef5d9898f177155713022a09d22a6c5f9"
-  integrity sha512-b+4QqqQ7OUcr6b12g2XYuJbsB2sACrUVFuvfj/8cmwQbNJorsdKXt/D8BFbC/65SJ47tTwPkyOhtvE5JKA23Bw==
+egg-bin@5.13.0:
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.13.0.tgz#10dcb9b9bbb797460b9bb9355286b70ca8f3b4e5"
+  integrity sha512-FlGr5hOlQK5pecmIDGcGxR/oz+OhOSe2XzcwQDCZf8enYWUiXmJQC0ufWrH+y2PFUB5Tb2CpcidGOwlezabi8A==
   dependencies:
-    autod "^3.1.2"
     c8 "^7.11.3"
     chalk "^4.1.2"
     common-bin "^3.0.0"
-    debug "^4.3.4"
     detect-port "^1.3.0"
     egg-ts-helper "^1.30.3"
     egg-utils "^2.4.1"
