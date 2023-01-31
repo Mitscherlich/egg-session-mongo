@@ -3508,10 +3508,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.13.0.tgz#10dcb9b9bbb797460b9bb9355286b70ca8f3b4e5"
-  integrity sha512-FlGr5hOlQK5pecmIDGcGxR/oz+OhOSe2XzcwQDCZf8enYWUiXmJQC0ufWrH+y2PFUB5Tb2CpcidGOwlezabi8A==
+egg-bin@5.13.1:
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-5.13.1.tgz#afe94a98f6ed4bd7cf87fe77ed5e68048039f143"
+  integrity sha512-wL3o+SKGhiDBIToYVMmXOZ8GH4byjHZ9y9duyLmOAyGRnYom8k2HMq0hiudn3+JHcmVw/oh4FTgm0eFr0vNmwA==
   dependencies:
     c8 "^7.11.3"
     chalk "^4.1.2"
