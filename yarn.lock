@@ -3530,10 +3530,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.0.0.tgz#9f6f7b956a4cb95ccde061401435d4b7a710ab16"
-  integrity sha512-YVUoeieU7dq9LbwNjvl7lczYgjYpMTLb3bjt6Eo2FMvDu1MhjoBILRY3ZscNvzlbJ2e9qSa741oxNJOwa3nJog==
+egg-bin@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.1.1.tgz#df3f38c71a53a21f24e17db629cc8547e93cfdbb"
+  integrity sha512-SBeZyTv1lYle7dH7+Ujr3qkrdcbz60iASZGnQvKk1sueD/O9thseLSfZp3Q80JHpwcyol1zwAuhr7cUpecAhFw==
   dependencies:
     "@artus-cli/artus-cli" "^0.2.1"
     "@artus-cli/plugin-autocomplete" "^0.1.1"
