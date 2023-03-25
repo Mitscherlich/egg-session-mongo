@@ -3339,10 +3339,10 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-egg@12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-12.2.0.tgz#9b884a7fe19a35cc3becdd5ebb1f5c4ec80b58b8"
-  integrity sha512-XDcruF3HIplcv91JylVQszfW3h8Ut0yOr1muVX3nJkJ+vo2E5/nohNHc62DJ2ZZhg2TGUBwrzwJ0Oa2yUhvtGw==
+eslint-config-egg@12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-12.2.1.tgz#d55342b208f0c7d0a64902ecf06cfa2c2ddef270"
+  integrity sha512-YXV5hi+/jyeAaT5JSkkST/6d3JSzYBhXclESmV0NCW9fFNgPuruZ3dz11nZOEgFfE11rRkOttEvFIVSVmgCRHQ==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/eslint-parser" "^7.16.3"
