@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@artus-cli/artus-cli@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@artus-cli/artus-cli/-/artus-cli-0.2.1.tgz#1bddbde47eeb127db3808e867b22e9d3a6d62cd1"
-  integrity sha512-2GfY0wj0Jt/GNXmIJ50OmLwk3Or+eGsYP/iRMTvW2dxb9ADfpQVRji8Yz2xIZClMq1FW97uSGZ0dj41iok0JKw==
+"@artus-cli/artus-cli@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@artus-cli/artus-cli/-/artus-cli-0.2.5.tgz#c8b1be61592daa75c5f57130995e51a96692ccb0"
+  integrity sha512-qVRBIzWI5peQ8RknQUIqdkeAF//Ge3MBR99xisEV1txmi+BIk5f6svicfk89m0cMZ94Q+8UEqXH7cAeCCv2pLA==
   dependencies:
     "@artus-cli/plugin-help" "^1.0.0"
     "@artus-cli/plugin-version" "^1.0.0"
@@ -2847,12 +2847,12 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.1.2.tgz#c8da26eea52ac6e0242f1c364235a7bdbfa1663b"
-  integrity sha512-RbpvuzNhG5YAuYNKWHzUIe5Vi7ZPY9UV505GUplwQb/iawXcKj4uJ82U+qSER2/0vNfz/22MGo2/yk6v/mhHzA==
+egg-bin@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.2.0.tgz#5df9db4b599737c2cda328b4bdab3c75c84424d5"
+  integrity sha512-m67aqi/jYWdD7J7XOof+8FZkryBXu3FmP5mSNL4BsbrhuvK4MZBn/J/i7RYMPSVqlFogRDo/y8szitjR6kHqoQ==
   dependencies:
-    "@artus-cli/artus-cli" "^0.2.1"
+    "@artus-cli/artus-cli" "^0.2.5"
     "@artus-cli/plugin-autocomplete" "^0.1.1"
     "@artus-cli/plugin-version" "^1.0.1"
     c8 "^7.12.0"
