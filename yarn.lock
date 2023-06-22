@@ -3161,10 +3161,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.16.1:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.16.1.tgz#a15d2a16963c8d54dce91bde3463f47184449911"
-  integrity sha512-WEKjo4gJpCALuVdMujEmOnZMPu0Ii5mwqsdcZjCfiyycGbNnDglHchicJ6O8rE030jxWZQukk/BalEnBBe5NiA==
+egg@3.17.1:
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.17.1.tgz#a3f6251449a61bd44e7f5e77ff0fc86ea7a60761"
+  integrity sha512-m8+Guu0/W98ISu2aRbuRcvOuTg+DJQMQWof3HNH6xiiIeCPKWcF65Ybs5ETsewORKQJ4r3N/dkK6XGLf4qN1mg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3196,7 +3196,7 @@ egg@3.16.1:
     graceful "^1.1.0"
     humanize-ms "^1.2.1"
     is-type-of "^1.2.1"
-    koa-bodyparser "^4.3.0"
+    koa-bodyparser "^4.4.1"
     koa-is-json "^1.0.0"
     koa-override "^3.0.0"
     ms "^2.1.3"
@@ -5017,13 +5017,14 @@ ko-sleep@^1.0.3:
   dependencies:
     ms "^2.0.0"
 
-koa-bodyparser@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/koa-bodyparser/-/koa-bodyparser-4.3.0.tgz#274c778555ff48fa221ee7f36a9fbdbace22759a"
-  integrity sha512-uyV8G29KAGwZc4q/0WUAjH+Tsmuv9ImfBUF2oZVyZtaeo0husInagyn/JH85xMSxM0hEk/mbCII5ubLDuqW/Rw==
+koa-bodyparser@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/koa-bodyparser/-/koa-bodyparser-4.4.1.tgz#a908d848e142cc57d9eece478e932bf00dce3029"
+  integrity sha512-kBH3IYPMb+iAXnrxIhXnW+gXV8OTzCu8VPDqvcDHW9SQrbkHmqPQtiZwrltNmSq6/lpipHnT7k7PsjlVD7kK0w==
   dependencies:
     co-body "^6.0.0"
     copy-to "^2.0.1"
+    type-is "^1.6.18"
 
 koa-compose@^3.0.0:
   version "3.2.1"
@@ -5392,7 +5393,7 @@ mime-types@^2.1.12, mime-types@^2.1.18, mime-types@^2.1.8, mime-types@~2.1.18:
   dependencies:
     mime-db "~1.37.0"
 
-mime-types@^2.1.35, mime-types@~2.1.34:
+mime-types@^2.1.35, mime-types@~2.1.24, mime-types@~2.1.34:
   version "2.1.35"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
@@ -7633,6 +7634,14 @@ type-is@^1.6.15, type-is@^1.6.16:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.18"
+
+type-is@^1.6.18:
+  version "1.6.18"
+  resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz#4e552cd05df09467dcbc4ef739de89f2cf37c131"
+  integrity sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==
+  dependencies:
+    media-typer "0.3.0"
+    mime-types "~2.1.24"
 
 typescript@^4.0.0:
   version "4.5.5"
