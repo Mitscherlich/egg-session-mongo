@@ -26,7 +26,7 @@
     "egg-ci": "2.2.0",
     "egg-mock": "5.10.8",
     "eslint": "8.49.0",
-    "eslint-config-egg": "12.2.1",
+    "eslint-config-egg": "12.3.0",
     "mongoose": "7.5.1",
     "mz-modules": "2.1.0",
     "supertest": "6.3.3",
