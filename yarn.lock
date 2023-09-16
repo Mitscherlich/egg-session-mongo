@@ -2869,10 +2869,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@6.5.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.5.1.tgz#d26babfee7748c58bd780a262feea6c3650c3c6b"
-  integrity sha512-VaRrFI+vWFgF7Zkw1b+LykaWCQSsp6nKKC8NfIV38xmo3AJEEgPMMVnPnv0LQUIrvocG4IJ5lik73DpMvoM42w==
+egg-bin@6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-6.5.2.tgz#3df6edae04a22e37d32ed476b0bfe768d3bf80ec"
+  integrity sha512-KOeaCUoj4YoDyt8MM5KnZ2TVb2SU9SUtR9EqCCLhZvBNvvKIYClefZoh68kizXAHE2ly7lYwawXsWIO+0aEbQQ==
   dependencies:
     "@artus-cli/artus-cli" "^0.2.9"
     "@artus-cli/plugin-autocomplete" "^0.1.1"
