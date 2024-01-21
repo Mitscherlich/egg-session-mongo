@@ -3387,10 +3387,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.17.7:
-  version "3.17.7"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.17.7.tgz#9f9eb2e35332714d9510e962f0304671264612f1"
-  integrity sha512-Crn+SG6Jsb0xZQgZWeH9HwAHuDZAb+SCGg3tK4MXx38tKfLU5Rcs86d1vCW1E2b0mt3PusskUI5CI0OPxxhr8w==
+egg@3.18.0:
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.18.0.tgz#d696437e1e373dbd1478b59beafcdaa797ac60d6"
+  integrity sha512-scwyZjeY8dzUVd/bzwgG0pvsCsa71Ma0QXahF6MTPPIzBavmdryEGx/m1Uq0d+XNgK2jive1MNTbmG6FNzn++Q==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3427,6 +3427,7 @@ egg@3.17.7:
     koa-override "^3.0.0"
     ms "^2.1.3"
     on-finished "^2.4.1"
+    onelogger "^1.0.0"
     sendmessage "^2.0.0"
     urllib "^2.33.0"
     urllib-next "^3.9.0"
@@ -6533,6 +6534,11 @@ once@1.4.0, once@^1.3.0, once@^1.3.1, once@^1.4.0:
   integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
   dependencies:
     wrappy "1"
+
+onelogger@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/onelogger/-/onelogger-1.0.0.tgz#b901853394166dd8a6e1746dc47a95215e7c9375"
+  integrity sha512-9cXcryvGm6UufEBfUCw/P7LYYkKfek/JrKwOjXi42chwcwwClmGlnxabyt0c53AaFjymzAso6zH8OHPgG92LuA==
 
 onetime@^5.1.0, onetime@^5.1.2:
   version "5.1.2"
