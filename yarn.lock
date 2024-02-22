@@ -416,6 +416,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
+"@fastify/busboy@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.0.tgz#0709e9f4cb252351c609c6e6d8d6779a8d25edff"
+  integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
+
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.13.tgz#075dc9684f40a531d9b26b0822153c1e832ee297"
@@ -3387,10 +3392,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.19.0.tgz#c4c60aeb52c179933a071561fe96e46d136946af"
-  integrity sha512-GgHgkrGsdGhcnOUMowIW5SQmrw/f3wtxmGGyWeEMGuqPk1EAgMHyjq9xGA0dH8GzWuohGjnL+BWOxB57ReJ+1A==
+egg@3.20.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.20.0.tgz#bf20ef8632d9e437ba2286fe3b0244b663ca9cb2"
+  integrity sha512-3nuydvegGqPqqSixvWbH+9EwR8CFK/GgisYc88YP0urIv58+6q+tqrNopCW4L8YqgcgaZRChj2gof0qK06XuLg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3430,7 +3435,7 @@ egg@3.19.0:
     onelogger "^1.0.0"
     sendmessage "^2.0.0"
     urllib "^2.33.0"
-    urllib-next "^3.9.0"
+    urllib-next "npm:urllib@^3.22.4"
     utility "^1.17.0"
     ylru "^1.3.2"
 
@@ -6944,6 +6949,13 @@ qs@^6.11.0:
   dependencies:
     side-channel "^1.0.4"
 
+qs@^6.11.2:
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.2.tgz#64bea51f12c1f5da1bc01496f48ffcff7c69d7d9"
+  integrity sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==
+  dependencies:
+    side-channel "^1.0.4"
+
 qs@^6.4.0, qs@^6.5.2:
   version "6.6.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
@@ -8247,6 +8259,11 @@ type-fest@^3.4.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.5.7.tgz#1ee9efc9a172f4002c40b896689928a7bba537f2"
   integrity sha512-6J4bYzb4sdkcLBty4XW7F18VPI66M4boXNE+CY40532oq2OJe6AVMB5NmjOp6skt/jw5mRjz/hLRpuglz0U+FA==
 
+type-fest@^4.3.1:
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.10.3.tgz#ff01cb0a1209f59583d61e1312de9715e7ea4874"
+  integrity sha512-JLXyjizi072smKGGcZiAJDCNweT8J+AuRxmPZ1aG7TERg4ijx9REl8CNhbr36RV4qXqL1gO1FF9HL8OkVmmrsA==
+
 type-is@^1.6.15, type-is@^1.6.16:
   version "1.6.16"
   resolved "http://registry.npm.taobao.org/type-is/download/type-is-1.6.16.tgz#f89ce341541c672b25ee7ae3c73dee3b2be50194"
@@ -8344,6 +8361,13 @@ undici-types@~5.26.4:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
+undici@^5.28.2:
+  version "5.28.3"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.28.3.tgz#a731e0eff2c3fcfd41c1169a869062be222d1e5b"
+  integrity sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
+
 undici@^5.6.0:
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.10.0.tgz#dd9391087a90ccfbd007568db458674232ebf014"
@@ -8411,10 +8435,10 @@ urix@^0.1.0:
   resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib-next@^3.9.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/urllib-next/-/urllib-next-3.10.0.tgz#5e2762da3a2203b29d00cacc9e4f9e93a978d58b"
-  integrity sha512-sdt92SiwZK2ibICmc9ry9l1jSYiSYs1LrmUsGQS7FmEpBitZTvRVUlfca4VzJpIT29HczqG4VcoFacgb/kULxg==
+"urllib-next@npm:urllib@^3.22.4":
+  version "3.22.4"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-3.22.4.tgz#f9ee378593810883b8cdc22df73de9416a22bad7"
+  integrity sha512-0UFrCAXANAY98inopcsE5Vz9Aj7I74yrZfVkJhIMdXoFokLCzrjCv8eMECSORmt8Rb7SX+tlsidWnv/XcWZxoQ==
   dependencies:
     default-user-agent "^1.0.0"
     digest-header "^1.0.0"
@@ -8423,8 +8447,10 @@ urllib-next@^3.9.0:
     formstream "^1.1.1"
     mime-types "^2.1.35"
     pump "^3.0.0"
-    tslib "^2.4.0"
-    undici "^5.6.0"
+    qs "^6.11.2"
+    type-fest "^4.3.1"
+    undici "^5.28.2"
+    ylru "^1.3.2"
 
 urllib@^2.25.1:
   version "2.31.3"
