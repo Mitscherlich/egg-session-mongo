@@ -3035,10 +3035,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.26.0:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.26.0.tgz#c01f01ce00d6930300339e54ff5171ebad952264"
-  integrity sha512-P7BWpMz2udta5Rqhxp8JpoxRn2zcbcol0URJuZkjM7Xx/dp+4IdEcog7WzExrIlI7XHVTOVFM0vwZHDLShsuqw==
+egg@3.26.1:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.26.1.tgz#200e5cf6efe05c300f31024659be2bd4c6b97e83"
+  integrity sha512-8ShYT/CFY/FLa9vXV3lNf6J77PZMx2RclqXjipPpSe1nXW+k5XMuDeH9xFV6lgaz7DHuX+LFMr/+IhG+8acNCg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
