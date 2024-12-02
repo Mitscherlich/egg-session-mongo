@@ -3104,10 +3104,10 @@ egg-watcher@^3.1.1:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@3.28.0:
-  version "3.28.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-3.28.0.tgz#22c43adcaf6210f8d34023623febdf40d9f87305"
-  integrity sha512-m5/2B4QnTh9wbVkBSaimhPNm5xJI1hB4ulapNl2ATonDTs5W33K/EoqcrIEtWJmvAZeiQOf4sjVQ6YoTcvXP4A==
+egg@3.29.0:
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-3.29.0.tgz#8b02c5928f750da39f83d2694ce2576785a1edb3"
+  integrity sha512-pBGURHESU+y23AM7Adm6FxwHouWTPhmCAZ8TynTzKwW1StWUVv6VmoVHIRWX3PfrpeCjYhwOPe9qnM7LgtdFVw==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.13.5"
@@ -3148,7 +3148,7 @@ egg@3.28.0:
     sendmessage "^2.0.0"
     urllib "^2.33.0"
     urllib-next "npm:urllib@^3.27.1"
-    urllib4 "npm:urllib@^4.3.0"
+    urllib4 "npm:urllib@^4.5.0"
     utility "^2.1.0"
     ylru "^1.3.2"
 
@@ -3787,6 +3787,15 @@ form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
   integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
+form-data@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.1.tgz#ba1076daaaa5bfd7e99c1a6cb02aa0a5cff90d48"
+  integrity sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
@@ -7898,10 +7907,10 @@ undici@^5.6.0:
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.10.0.tgz#dd9391087a90ccfbd007568db458674232ebf014"
   integrity sha512-c8HsD3IbwmjjbLvoZuRI26TZic+TSEe8FPMLLOkN1AfYRhdjnKBU6yL+IwcSCbdZiX4e5t0lfMDLDCqj4Sq70g==
 
-undici@^6.19.2:
-  version "6.19.8"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-6.19.8.tgz#002d7c8a28f8cc3a44ff33c3d4be4d85e15d40e1"
-  integrity sha512-U8uCCl2x9TK3WANvmBavymRzxbfFYG+tAu+fgx3zxQy3qdagQqBLwJVrdyO1TBfUXvfKveMKJZhpvUYoOjM+4g==
+undici@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.0.0.tgz#3697f99304ea625d804ae087a635291a65affcbb"
+  integrity sha512-c4xi3kWnQJrb7h2q8aJYKvUzmz7boCgz1cUCC6OwdeM5Tr2P0hDuthr2iut4ggqsz+Cnh20U/LoTzbKIdDS/Nw==
 
 unescape@^1.0.1:
   version "1.0.1"
@@ -7982,16 +7991,17 @@ urix@^0.1.0:
     undici "^5.28.2"
     ylru "^1.3.2"
 
-"urllib4@npm:urllib@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/urllib/-/urllib-4.3.0.tgz#45632f6578f26d55804ce2b9a70a4f7fdb5381c4"
-  integrity sha512-VqhKRhhrUTpqnxxVUFo7n/w0OYuHOGLtmv1TsnWBSeALnCxvU6w0xNPc7NFNHbxspyZ8ah+UXM/amU0YTpJn8w==
+"urllib4@npm:urllib@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-4.5.0.tgz#d221148314e4df32094f5ad1319d711c2e66d3cd"
+  integrity sha512-UZqnAWA7eTPr6QHx32oYoTeieyaA2dBBDbqPD7hKNWeUIZ8G2UcDXxMqL4/McIJ0MruVkPEhCLYwUq+XIKxqMw==
   dependencies:
+    form-data "^4.0.1"
     formstream "^1.5.1"
     mime-types "^2.1.35"
     qs "^6.12.1"
     type-fest "^4.20.1"
-    undici "^6.19.2"
+    undici "^7.0.0"
     ylru "^2.0.0"
 
 urllib@^2.25.1:
