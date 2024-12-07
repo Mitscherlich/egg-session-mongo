@@ -2961,10 +2961,10 @@ egg-logrotator@^3.1.0:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@5.12.5:
-  version "5.12.5"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.12.5.tgz#d1c4123faa7cd24b6c9a1e242dd7ffe2480f6b6b"
-  integrity sha512-Vgd5L3EhuywkspURR6hiu7GGiloD4t6/LiH/zY1/cu3oYA0iNbpDd/sCNaSf3XW0rH5m3i6yhR/F4iLSKL1Zbw==
+egg-mock@5.13.0:
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-5.13.0.tgz#31672d68531fe47351c80b98b26cbe20b720a8b4"
+  integrity sha512-RY6tR8WcORgXQEzWUfMW+4NS3IZNQez8Pfya+fUhnpu2hk/xrmeYdiB1XHPcatq2Gj53mXmSdP1VhDeRMDM6Cw==
   dependencies:
     "@types/supertest" "^2.0.7"
     await-event "^2.1.0"
@@ -2982,7 +2982,6 @@ egg-mock@5.12.5:
     mm "^3.0.2"
     sdk-base "^4.2.1"
     supertest "^6.2.4"
-    urllib "^3.10.1"
 
 egg-multipart@^3.1.0:
   version "3.1.0"
@@ -7902,11 +7901,6 @@ undici@^5.28.2:
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
-undici@^5.6.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.10.0.tgz#dd9391087a90ccfbd007568db458674232ebf014"
-  integrity sha512-c8HsD3IbwmjjbLvoZuRI26TZic+TSEe8FPMLLOkN1AfYRhdjnKBU6yL+IwcSCbdZiX4e5t0lfMDLDCqj4Sq70g==
-
 undici@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-7.0.0.tgz#3697f99304ea625d804ae087a635291a65affcbb"
@@ -8044,21 +8038,6 @@ urllib@^2.33.0:
     qs "^6.4.0"
     statuses "^1.3.1"
     utility "^1.16.1"
-
-urllib@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/urllib/-/urllib-3.10.1.tgz#83d855773a9be67979dc5eb4674176e954779c1d"
-  integrity sha512-Ool8rFaHPEjLzZEFHcoemKitJomgDf1QgkX/38iuNbuiYCjJ/3NWVzpB8Gl43RNxFk6QyVGHocOwYxpg7yiU0w==
-  dependencies:
-    default-user-agent "^1.0.0"
-    digest-header "^1.0.0"
-    form-data-encoder "^1.7.2"
-    formdata-node "^4.3.3"
-    formstream "^1.1.1"
-    mime-types "^2.1.35"
-    pump "^3.0.0"
-    tslib "^2.4.0"
-    undici "^5.6.0"
 
 use@^3.1.0:
   version "3.1.1"
