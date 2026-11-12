@@ -5753,10 +5753,10 @@ mongodb@~6.20.0:
     bson "^6.10.4"
     mongodb-connection-string-url "^3.0.2"
 
-mongoose@8.24.7:
-  version "8.24.7"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.24.7.tgz#6e99b6b2b33aa049e7f10689f81ca247b33b5de3"
-  integrity sha512-+hrEOLpLGPgOt7S/UrcBAKZ4gvB6+5qf16jspWH5xQ8WtQu9lRTzcqy04ZNQrlIox4Pl6Nh2RzlNDPSOFw9rng==
+mongoose@8.24.9:
+  version "8.24.9"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.24.9.tgz#e6ef8aced1f8885ddfbaa70771ecab8296d43b56"
+  integrity sha512-+roDmtsLlBjv42fIlhqX6AmCgSznqK3CDxFcAZZv2fkovgGunZpXGTEEZoL5agz9JbFH4r7i6CGJ8T3p7Ub5Jg==
   dependencies:
     bson "^6.10.4"
     kareem "2.6.3"
